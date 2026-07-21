@@ -1,0 +1,10 @@
+[project]
+name = "sudoku-ai"
+version = "0.1.0"
+description = "A beginner-friendly Sudoku AI portfolio project."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+sudoku-ai = "sudoku_ai.main:main"
