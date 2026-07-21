@@ -1,8 +1,39 @@
 # Sudoku AI
 
-Sudoku AI is a beginner-friendly Python project that will grow into a portfolio-quality application for experimenting with Sudoku and AI techniques.
+Sudoku AI is a beginner-friendly Python project that will grow into a portfolio-quality application for practicing software engineering fundamentals and exploring AI concepts through Sudoku.
 
-This repository currently contains only the initial project foundation. Sudoku solving, validation, generation, user interfaces, and AI features will be added in future steps.
+The project is currently in its foundation stage. It has a professional Python repository structure, but it does not yet include Sudoku gameplay, board validation, solving, generation, a graphical interface, or AI features.
+
+## Project Overview
+
+This repository is intended to demonstrate steady, professional project development. Each sprint adds a small, understandable layer while keeping the code readable for someone new to Python.
+
+## Project Goals
+
+- Build a clean Python project using modern conventions.
+- Keep the codebase beginner-friendly and easy to explain.
+- Add Sudoku functionality gradually through small, tested steps.
+- Use the project as a public portfolio example for software engineering growth.
+- Explore AI-related ideas only after the core Sudoku foundation is stable.
+
+## Current Status
+
+✅ Sprint 0 Complete  
+✅ Sprint 1 Complete  
+🚧 Sprint 2 Next
+
+The current repository contains only the initial project foundation and documentation.
+
+## Planned Features
+
+- Sudoku board representation
+- Board display in a readable format
+- Input handling
+- Board validation
+- Basic solving logic
+- Example puzzles
+- Command-line workflow
+- AI exploration after the core project is complete enough to support it
 
 ## Project Structure
 
@@ -15,21 +46,35 @@ sudoku-ai/
 +-- tests/
 |   +-- __init__.py
 +-- .gitignore
++-- CHANGELOG.md
 +-- pyproject.toml
++-- ROADMAP.md
 +-- README.md
 ```
 
 The project uses the modern `src` layout so application code lives separately from tests and project configuration.
 
-## Future Architecture
+## Technology Stack
 
-As the project grows, the code can be organized into small, focused modules:
+- Python 3.14
+- Standard library only
+- `src` layout
+- Git and GitHub for version control
 
-- puzzle representation
-- puzzle validation
-- puzzle solving
-- puzzle generation
-- AI experiments
-- command-line or user interface entry points
+No third-party Python dependencies are currently used.
 
-For now, no Sudoku functionality has been implemented.
+## Development Workflow
+
+The project is being developed in short sprints. Each sprint should keep changes focused, update documentation when needed, and avoid claiming features before they exist.
+
+Current workflow priorities:
+
+- Keep changes small and readable.
+- Write documentation that matches the repository.
+- Add tests as functionality is introduced.
+- Maintain a clean project structure.
+
+## Documentation
+
+- [Roadmap](ROADMAP.md)
+- [Changelog](CHANGELOG.md)
